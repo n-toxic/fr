@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { DashboardLayout } from "@/components/layout/DashboardLayout";
 import { useListInstances, useStartInstance, useStopInstance, useRebootInstance } from "@/lib/api";
-import { customFetch } from "@/lib/api";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
